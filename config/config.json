@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Strange18!",
+    "database": "music-tour-api",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": "Strange18!",
+    "database": "musi-tour-api",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": "Strange18!",
+    "database": "music-tour-api",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
