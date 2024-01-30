@@ -10,6 +10,6 @@ module.exports = {
   },
 
   async down (queryInterface, Sequelize) {
-    await queryInterface.dropTable('recommendation')
+    await queryInterface.removeColumn('bands', 'recommendation')
   }
 };
