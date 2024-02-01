@@ -10,6 +10,9 @@ app.use(express.urlencoded({ extended: false }))
 
 // SEQUELIZE CONNECTION
 
+// CONTROLLERS 
+const bandsController = require('./controllers/bands_controller')
+app.use('/bands', bandsController)
 
 
 // ROOT
